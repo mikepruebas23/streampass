@@ -1,5 +1,5 @@
 {
-  "name": "pokemons-static",
+  "name": "streampass",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
+    "@nextui-org/react": "^1.0.0-beta.11",
+    "axios": "^1.2.1",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
     "eslint": "8.30.0",
-    "eslint-config-next": "13.1.1"
+    "eslint-config-next": "13.1.1",
+    "typescript": "^4.9.4"
   }
 }
